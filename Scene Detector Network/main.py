@@ -5,6 +5,7 @@ import torch.nn as nn
 import time
 from load_prepare_data import load_dataset
 from arguments import Arguments
+from torchvision import transforms, datasets
 
 args = Arguments()
 
@@ -56,7 +57,7 @@ class Net(nn.Module):
         self.fc5 = nn.Linear(4102, 67)
         self.dropout = nn.Dropout(p=0.4)
         self.attribute_network = load_checkpoint(
-            "/Users/hrishikesh/Hrishikesh/Projects/Zero Shot Scene Recognition/model.pth"
+            "./attribute_network/model.pth"
         ).eval()
 
     def forward(self, img, attr=None):
@@ -172,5 +173,5 @@ train(
     train_loader,
     test_loader,
     epochs=1,
-    model_name="models/pretrain/best_model.pth",
+    model_name="model.pth",
 )
