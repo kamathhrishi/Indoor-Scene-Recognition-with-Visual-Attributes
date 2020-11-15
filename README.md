@@ -7,13 +7,13 @@
 <center>
 <figure>
 <img src="http://web.mit.edu/torralba/www/allIndoors.jpg"></img>
-<figcaption>MIT 67 Indoor Dataset</figcaption>
+   <figcaption><b>MIT 67 Indoor Dataset</b></figcaption>
 </figure>
 </center>
 
 <figure>
 <img src="http://cs.brown.edu/~gmpatter/website_imgs/pca2D_w_nn.jpg"></img>
-<figcaption>SUN Attribute Dataset</figcaption>
+<figcaption><b>SUN Attribute Dataset</b></figcaption>
 </figure>
 
 
