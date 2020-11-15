@@ -1,8 +1,8 @@
 # Indoor-Scene-Recognition-with-Visual-Attributes
 
-In this project , I trained a classifier to recognize 67 different categories of Indoor Scenes from the MIT Indoor 67 dataset. The dataset is a small dataset with just 5400 images for training , so a classifier trained from scratch ended up overfitting to an large extent giving an very low accuracy of ~35%. This was obtained after several stratergies. But , using visual attributes from the SUN dataset with attributes , the classifier accuracy can go upto 60%. This does not even require learning representations from a large dataset such as SUN which consists of 2 million images with indoor/outdoor scenes. But , annotating attributes is definitely expensive. 
+<p align="justify">In this project , I trained a classifier to recognize 67 different categories of Indoor Scenes from the MIT Indoor 67 dataset. The dataset is a small dataset with just 5400 images for training , so a classifier trained from scratch ended up overfitting to an large extent giving an very low accuracy of ~35%. This was obtained after several stratergies. But , using visual attributes from the SUN dataset with attributes , the classifier accuracy can go upto 60%. This does not even require learning representations from a large dataset such as SUN which consists of 2 million images with indoor/outdoor scenes. But , annotating attributes is definitely expensive. </p>
 
-The project consists of two networks , a attribute prediction network and scene recognition network. The attribute prediction network is trained on SUN attribute dataset and the scene detector network combines predicted attribute along with features extracted from a given image at the linear layer to make predictions.
+<p align="justify">The project consists of two networks , a attribute prediction network and scene recognition network. The attribute prediction network is trained on SUN attribute dataset and the scene detector network combines predicted attribute along with features extracted from a given image at the linear layer to make predictions.</p>
 
 <center>
 <img src="http://web.mit.edu/torralba/www/allIndoors.jpg"></img>
