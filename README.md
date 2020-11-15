@@ -1,1 +1,1 @@
-# Indoor-Scene-Recognition-with-Visual-Attributes-
+# Indoor-Scene-Recognition-with-Visual-Attributes
