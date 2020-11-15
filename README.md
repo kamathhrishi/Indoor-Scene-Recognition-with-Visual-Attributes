@@ -5,9 +5,16 @@
 <p align="justify">The project consists of two networks , a attribute prediction network and scene recognition network. The attribute prediction network is trained on SUN attribute dataset and the scene detector network combines predicted attribute along with features extracted from a given image at the linear layer to make predictions.</p>
 
 <center>
+<figure>
 <img src="http://web.mit.edu/torralba/www/allIndoors.jpg"></img>
+<figcaption>MIT 67 Indoor Dataset</figcaption>
+</figure>
 </center>
+
+<figure>
 <img src="http://cs.brown.edu/~gmpatter/website_imgs/pca2D_w_nn.jpg"></img>
+<figcaption>SUN Attribute Dataset</figcaption>
+</figure>
 
 
 <h2>Instructions</h2>
