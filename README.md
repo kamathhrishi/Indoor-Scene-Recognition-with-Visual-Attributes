@@ -1,7 +1,7 @@
 # Indoor-Scene-Recognition-with-Visual-Attributes
 
 <img src="http://web.mit.edu/torralba/www/allIndoors.jpg"></img>
-<img src="https://d3i71xaburhd42.cloudfront.net/add89dbbd15b82d8275d712f7f969f1b511f96fd/2-Figure2-1.png"></img>
+<img src="http://cs.brown.edu/~gmpatter/website_imgs/pca2D_w_nn.jpg"></img>
 
 
 <h2>Instructions</h2>
