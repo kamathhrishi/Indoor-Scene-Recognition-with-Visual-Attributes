@@ -1,6 +1,6 @@
 # Indoor-Scene-Recognition-with-Visual-Attributes
 
-Instructions 
+<h2>Instructions</h2>
 
 Setup required packages 
 
@@ -8,7 +8,7 @@ Setup required packages
    
 in the root directory of the project 
 
-Attribute Network
+<b>Attribute Network</b>
 
 1. Download SUN Dataset with attributes
    Download Images: http://cs.brown.edu/~gmpatter/Attributes/SUNAttributeDB_Images.tar.gz and unzip it
@@ -24,7 +24,7 @@ Attribute Network
    visual attributes for training the Indoor Scene Recognition Network
    
    
-Scene Recognition Network
+<b>Scene Recognition Network</b>
 
 1. Download MIT Indoor 67 dataset and place train and test folder in the scene Detector Network
    directory.
